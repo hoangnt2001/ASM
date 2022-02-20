@@ -1,0 +1,97 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "products": [
+    {
+      "productname": "Cardigan",
+      "img": "http://res.cloudinary.com/fpt-sofwave/image/upload/v1645239478/jrnxvm8g2lufezrrp8kx.jpg",
+      "desc": "►Đổi hàng trong vòng 3 ngày.\n ►Giảm 10% trên tổng hóa đơn khi mua hàng ( tại cửa hàng ) vào tuần sinh nhật ( trước và sau ngày sinh nhật 3 ngày ).\n ►Giao hàng nội thành Hà Nội chỉ từ 15.000đ trong vòng 24 giờ.\n ►Tích điểm 3-10% giá trị đơn hàng cho mỗi lần mua và trừ tiền vào lần mua tiếp theo.",
+      "price": "569000",
+      "id": 1
+    },
+    {
+      "productname": "Áo Nỉ Krik regular",
+      "img": "http://res.cloudinary.com/fpt-sofwave/image/upload/v1645240471/kogsvspjgr7jsyzlirzq.jpg",
+      "desc": " ►Đổi hàng trong vòng 3 ngày.\n ►Giảm 10% trên tổng hóa đơn khi mua hàng ( tại cửa hàng ) vào tuần sinh nhật ( trước và sau ngày sinh nhật 3 ngày ).\n ►Giao hàng nội thành Hà Nội chỉ từ 15.000đ trong vòng 24 giờ.\n ►Tích điểm 3-10% giá trị đơn hàng cho mỗi lần mua và trừ tiền vào lần mua tiếp theo.",
+      "price": "409000",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "repo": {
+        "productname": "Áo Len 1",
+        "desc": "►Đổi hàng trong vòng 3 ngày.\n ►Giảm 10% trên tổng hóa đơn khi mua hàng ( tại cửa hàng ) vào tuần sinh nhật ( trước và sau ngày sinh nhật 3 ngày ).\n ►Giao hàng nội thành Hà Nội chỉ từ 15.000đ trong vòng 24 giờ.\n ►Tích điểm 3-10% giá trị đơn hàng cho mỗi lần mua và trừ tiền vào lần mua tiếp theo.",
+        "price": "435000"
+      }
+    },
+    {
+      "productname": "Quần Âu ",
+      "img": "http://res.cloudinary.com/fpt-sofwave/image/upload/v1645241145/nntu0dgkoozzgfjtl5ty.jpg",
+      "desc": "►Đổi hàng trong vòng 3 ngày.\n ►Giảm 10% trên tổng hóa đơn khi mua hàng ( tại cửa hàng ) vào tuần sinh nhật ( trước và sau ngày sinh nhật 3 ngày ).\n ►Giao hàng nội thành Hà Nội chỉ từ 15.000đ trong vòng 24 giờ.\n ►Tích điểm 3-10% giá trị đơn hàng cho mỗi lần mua và trừ tiền vào lần mua tiếp theo.",
+      "price": "419000",
+      "id": 4
+    },
+    {
+      "productname": "Quần Jogger Túi Hộp",
+      "img": "http://res.cloudinary.com/fpt-sofwave/image/upload/v1645241206/kkbxfafhroffhftkbzwp.jpg",
+      "desc": "►Đổi hàng trong vòng 3 ngày.\n ►Giảm 10% trên tổng hóa đơn khi mua hàng ( tại cửa hàng ) vào tuần sinh nhật ( trước và sau ngày sinh nhật 3 ngày ).\n ►Giao hàng nội thành Hà Nội chỉ từ 15.000đ trong vòng 24 giờ.\n ►Tích điểm 3-10% giá trị đơn hàng cho mỗi lần mua và trừ tiền vào lần mua tiếp theo.",
+      "price": "449000",
+      "id": 5
+    },
+    {
+      "productname": "Quần Jeans",
+      "img": "http://res.cloudinary.com/fpt-sofwave/image/upload/v1645241279/hodkv0basq5gcwbi65dk.jpg",
+      "desc": "►Đổi hàng trong vòng 3 ngày.\n ►Giảm 10% trên tổng hóa đơn khi mua hàng ( tại cửa hàng ) vào tuần sinh nhật ( trước và sau ngày sinh nhật 3 ngày ).\n ►Giao hàng nội thành Hà Nội chỉ từ 15.000đ trong vòng 24 giờ.\n ►Tích điểm 3-10% giá trị đơn hàng cho mỗi lần mua và trừ tiền vào lần mua tiếp theo.",
+      "price": "439000",
+      "id": 6
+    },
+    {
+      "productname": "Sơ Mi Hoa Krik Regular",
+      "img": "http://res.cloudinary.com/fpt-sofwave/image/upload/v1645241413/wzwdxrrsrtjhik2xebq8.jpg",
+      "desc": "►Đổi hàng trong vòng 3 ngày.\n ►Giảm 10% trên tổng hóa đơn khi mua hàng ( tại cửa hàng ) vào tuần sinh nhật ( trước và sau ngày sinh nhật 3 ngày ).\n ►Giao hàng nội thành Hà Nội chỉ từ 15.000đ trong vòng 24 giờ.\n ►Tích điểm 3-10% giá trị đơn hàng cho mỗi lần mua và trừ tiền vào lần mua tiếp theo.",
+      "price": "245000",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "productname": "Áo Tanktop Regular",
+      "img": "http://res.cloudinary.com/fpt-sofwave/image/upload/v1645366846/vial2nncnrvfwhwo5ix5.jpg",
+      "price": "549000",
+      "desc": "►Đổi hàng trong vòng 3 ngày.\n ►Giảm 10% trên tổng hóa đơn khi mua hàng ( tại cửa hàng ) vào tuần sinh nhật ( trước và sau ngày sinh nhật 3 ngày ).\n ►Giao hàng nội thành Hà Nội chỉ từ 15.000đ trong vòng 24 giờ.\n ►Tích điểm 3-10% giá trị đơn hàng cho mỗi lần mua và trừ tiền vào lần mua tiếp theo.\n"
+    },
+    {
+      "id": 9,
+      "productname": "Áo Polo Krik Rayon Slimfit",
+      "img": "http://res.cloudinary.com/fpt-sofwave/image/upload/v1645366873/okyrnmld7hmh02yzvksq.jpg",
+      "price": "549000",
+      "desc": "►Đổi hàng trong vòng 3 ngày.\n ►Giảm 10% trên tổng hóa đơn khi mua hàng ( tại cửa hàng ) vào tuần sinh nhật ( trước và sau ngày sinh nhật 3 ngày ).\n ►Giao hàng nội thành Hà Nội chỉ từ 15.000đ trong vòng 24 giờ.\n ►Tích điểm 3-10% giá trị đơn hàng cho mỗi lần mua và trừ tiền vào lần mua tiếp theo."
+    },
+    {
+      "productname": "Áo Hoodie Krik Regular ",
+      "img": "http://res.cloudinary.com/fpt-sofwave/image/upload/v1645241628/or21mwj70zcq7szpzqo1.jpg",
+      "desc": "►Đổi hàng trong vòng 3 ngày.\n ►Giảm 10% trên tổng hóa đơn khi mua hàng ( tại cửa hàng ) vào tuần sinh nhật ( trước và sau ngày sinh nhật 3 ngày ).\n ►Giao hàng nội thành Hà Nội chỉ từ 15.000đ trong vòng 24 giờ.\n ►Tích điểm 3-10% giá trị đơn hàng cho mỗi lần mua và trừ tiền vào lần mua tiếp theo.",
+      "price": "545000",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "email": "hoangkhoikhanhtiep1@gmai.com",
+      "password": "$2a$10$I74mk0DcKpQb0zIygxox0ueQhzw7IMRYUV2Ejtf/yXx8zKyEdI3Ke",
+      "name": "Nguyen Tien Hoang",
+      "id": 1
+    },
+    {
+      "email": "hoangntph17120@fpt.edu.vn",
+      "password": "$2a$10$3ulMl9990RohH8eV/4D6ee64SQ4KVZypAiK/kKTbiV.Dy85Cm0P0m",
+      "name": "Nguyen Tien Hoang",
+      "id": 2
+    }
+  ],
+  "carts": []
+}
