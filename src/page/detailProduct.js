@@ -11,7 +11,7 @@ const detailProduct = {
 
         return /* html */ `
               <header>
-              ${header.print()}
+               ${await header.print()}
               </header>
               <main class="pt-7 w-7/12 m-auto">
                 <div class="grid grid-cols-2 gap-8 m-4">
@@ -44,12 +44,13 @@ const detailProduct = {
           `;
     },
     afterprint(id) {
-        const btnAddToCart = document.querySelector("#btnAddToCart");
-        const inputQuantity = document.querySelector("#inputQuantity");
+        header.afterprint();
+        const btnAddToCart = document.querySelector("#add_cart");
+        const inputQuantity = document.querySelector("#quanlity");
 
         btnAddToCart.addEventListener("click", async () => {
             const { data } = await get(id);
-            addToCart({ ...data, quantity: +inputQuantity.value }, () => {
+            addToCart({ ...data, quantity: inputQuantity.value ? +inputQuantity.value : 1 }, () => {
                 toastr.success("Thêm thành công");
             });
         });

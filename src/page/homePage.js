@@ -7,7 +7,7 @@ const homePage = {
         return /* html */`
         <div class="w-full mx-auto " >
         <header id="header">
-          ${header.print()}
+          ${await header.print()}
         </header>
     <main>
           ${await showProduct.print()}

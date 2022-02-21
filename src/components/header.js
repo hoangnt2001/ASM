@@ -1,7 +1,8 @@
 import { reprint } from "../ultils";
+import { getTotalItems } from "../ultils/cart";
 
 const header = {
-    print() {
+    async print() {
         return /* html */`
         <header>
       <div class="bg-slate-200 flex justify-between">
@@ -19,7 +20,7 @@ const header = {
           </div>
           `}
           
-          <div class="px-3">Giỏ Hàng(0)</div>
+          <div class="px-3" id=""><a href="/cart">Giỏ Hàng(${getTotalItems()})</a></div>
         </div>
       </div>
       <div class="bg-white flex justify-between my-auto relative">
@@ -30,7 +31,6 @@ const header = {
         </div>
         <ul class="menu flex justify-between my-3">
           <li><a href="/" class="block hover:underline font-bold px-3">QUẦN ÁO</a></li>
-          <li><a href="/news" class="block hover:underline font-bold px-3">TIN TỨC</a></li>
           <li><a href="" class="block hover:underline font-bold px-3">GIỚI THIỆU</a></li>
           <li><a href="/introduct" class="block hover:underline font-bold px-3">LIÊN HỆ</a></li>
         </ul>

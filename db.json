@@ -22,14 +22,6 @@
       "id": 2
     },
     {
-      "id": 3,
-      "repo": {
-        "productname": "Áo Len 1",
-        "desc": "►Đổi hàng trong vòng 3 ngày.\n ►Giảm 10% trên tổng hóa đơn khi mua hàng ( tại cửa hàng ) vào tuần sinh nhật ( trước và sau ngày sinh nhật 3 ngày ).\n ►Giao hàng nội thành Hà Nội chỉ từ 15.000đ trong vòng 24 giờ.\n ►Tích điểm 3-10% giá trị đơn hàng cho mỗi lần mua và trừ tiền vào lần mua tiếp theo.",
-        "price": "435000"
-      }
-    },
-    {
       "productname": "Quần Âu ",
       "img": "http://res.cloudinary.com/fpt-sofwave/image/upload/v1645241145/nntu0dgkoozzgfjtl5ty.jpg",
       "desc": "►Đổi hàng trong vòng 3 ngày.\n ►Giảm 10% trên tổng hóa đơn khi mua hàng ( tại cửa hàng ) vào tuần sinh nhật ( trước và sau ngày sinh nhật 3 ngày ).\n ►Giao hàng nội thành Hà Nội chỉ từ 15.000đ trong vòng 24 giờ.\n ►Tích điểm 3-10% giá trị đơn hàng cho mỗi lần mua và trừ tiền vào lần mua tiếp theo.",
@@ -92,6 +84,5 @@
       "name": "Nguyen Tien Hoang",
       "id": 2
     }
-  ],
-  "carts": []
+  ]
 }

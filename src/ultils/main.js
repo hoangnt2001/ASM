@@ -8,6 +8,7 @@ import addproduct from "../page/admin/product/addProduct";
 import editproduct from "../page/admin/product/editProduct";
 import detailProduct from "../page/detailProduct";
 import introduct from "../page/introduct";
+import CartPage from "../page/cart";
 
 const router = new Navigo("/", { linksSelector: "a", hash: true });
 const render = async (component, id) => {
@@ -34,6 +35,7 @@ router.on({
     "/signin": () => render(signIn),
     "/signup": () => render(signUp),
     "/introduct": () => render(introduct),
+    "/cart": () => render(CartPage),
     "/admin": () => render(admin),
     "/admin/product": () => render(adminproduct),
     "/products/:id": ({ data }) => render(detailProduct, data.id),

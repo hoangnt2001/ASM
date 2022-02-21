@@ -1,3 +1,5 @@
+import { getLocalStorage, setLocalStorage } from "./index";
+
 let cart = [];
 if (localStorage.getItem("cart")) {
     cart = JSON.parse(localStorage.getItem("cart"));
@@ -13,7 +15,23 @@ export const addToCart = (newProduct, next) => {
     localStorage.setItem("cart", JSON.stringify(cart));
     next();
 };
-
+export const increaseQuantity = (id, next) => {
+    cart.find((item) => item.id === id).quantity++;
+    setLocalStorage("cart", cart);
+    next();
+};
+export const decreaseQuantity = (id, next) => {
+    const currentProduct = cart.find((item) => item.id === id);
+    currentProduct.quantity--;
+    if (currentProduct.quantity < 1) {
+        const confirm = window.confirm("Bạn có chắc chắn muốn xóa không?");
+        if (confirm) {
+            cart = cart.filter((item) => item.id !== id);
+        }
+    }
+    setLocalStorage("cart", cart);
+    next();
+};
 export const removeItemInCart = (id, next) => {
     const confirm = window.confirm("Bạn có chắc chắn muốn xóa không?");
     if (confirm) {
@@ -21,4 +39,15 @@ export const removeItemInCart = (id, next) => {
     }
     localStorage.setItem("cart", JSON.stringify(cart));
     next();
+};
+export const getTotalItems = () => {
+    if (localStorage.getItem("cart")) {
+        cart = getLocalStorage("cart");
+    }
+    let total = 0;
+    cart.forEach((item) => {
+        total += item.quantity;
+    });
+
+    return total;
 };
